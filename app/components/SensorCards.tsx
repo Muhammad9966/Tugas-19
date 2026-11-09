@@ -4,21 +4,28 @@ const sensors = [
     value: "28.5",
     unit: "°C",
     icon: "🌡️",
-    description: "Temperatur ruangan",
+    description: "Temperatur Ruangan",
   },
   {
     name: "LDR",
     value: "75",
     unit: "%",
     icon: "☀️",
-    description: "Intensitas cahaya",
+    description: "Intensitas Cahaya",
   },
   {
     name: "JARAK",
     value: "120",
     unit: "cm",
     icon: "📏",
-    description: "Jarak objek",
+    description: "Jarak Objek",
+  },
+  {
+    name: "Kelembapan",
+    value: "62",
+    unit: "%",
+    icon: "💧",
+    description: "Kelembapan Udara",
   },
 ];
 
